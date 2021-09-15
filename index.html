@@ -57,8 +57,8 @@
                     <h1 class="display-5 fw-bold lh-1 mb-3">Freelance Software Developer</h1>
                     <p class="lead">I am a software developer based in Dubai, UAE. I help people worldwide to reach their goals by buidling websites and applications for private and business purposes.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in contact</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">See my projects</button>
+                    <a href="#contact"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get in contact</button></a>
+                    <a href="#projects"><button type="button" class="btn btn-outline-secondary btn-lg px-4">See my projects</button></a>
                 </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
 
         <!-- Tools Section -->
         <div id="tools"></div>
-        <center><hr style="width: 350px; margin: 4rem;"></center>
+        <hr class= "mx-auto" style="width: 350px; margin: 4rem;">
         <h2 style="text-align: center; margin-block: 35px; font-weight: bold;" >My Tools</h2>
 
         <div class="container">
@@ -170,7 +170,7 @@
         
         <!-- Project Section -->
         <div id="projects"></div>
-        <center><hr style="width: 350px; margin: 4rem;"></center>
+        <hr class= "mx-auto" style="width: 350px; margin: 4rem;">
         <h2 style="text-align: center; margin-block: 35px; font-weight: bold;" >My Projects</h2>
         <div class="container px-4 py-5" id="custom-cards">
         
@@ -260,6 +260,44 @@
                 </div>
             </div>
         </div>
+
+        <!-- Contact Form -->
+        <div id="contact"></div>
+        <hr class="mx-auto" style="width: 350px; margin: 4rem;">
+        <h2 style="text-align: center; margin-block: 35px; font-weight: bold;" >Get in touch</h2>
+
+        <form action="https://formspree.io/f/mayablee" method="POST">
+            <div>
+                <div class="mx-auto" style="width: 400px;">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your name:</label>
+                    <input type="text" class="form-control" id="exampleFormControlTextarea1" placeholder="Firstname Lastname" rows="1" name="Name"></input>
+                    <br>
+                    <label for="exampleFormControlInput1" class="form-label">Your email adress:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="replyto">
+                    <br>
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="3" name="Message"></textarea>
+                    <br>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="submit" class="btn btn-primary btn-lg px-4 me-md-2">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    
+        <!-- Footer -->
+
+        <!-- Things to do:
+            - change of fonts
+            - color change of fonts
+            - different hero image
+            - hero links
+            - contact form
+            - footer
+            - mini icons GitHub, LinkedIn
+
+        
+        -->
         
     </body>
 </html>
