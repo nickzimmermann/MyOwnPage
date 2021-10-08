@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: /privacyPolicy.html
+Disallow: /package-lock.json
+Disallow: /node_modules/
+Disallow: /comments
+Disallow: /SEO/
