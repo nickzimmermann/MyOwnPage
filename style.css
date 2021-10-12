@@ -1,8 +1,18 @@
-p {
+h2#font-color {
     color: #6c757d;
 }
 
-h2#font-color {
+.navbar-ul {
+    margin-right: 50px;
+}
+
+.sections {
+    text-align: center;
+    margin-block: 35px;
+    font-weight: bold;
+}
+
+p {
     color: #6c757d;
 }
 
