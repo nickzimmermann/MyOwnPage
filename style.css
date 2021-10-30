@@ -86,27 +86,3 @@ i#deviconStyle {
     color: #6c757d;
     font-size: 30px;
 }
-
-.footerIconList {
-    margin-bottom: 0;
-    margin-left: 50px;
-}
-
-.footerIcon {
-    color:#1a4c0b;
-    padding: 0.5rem;
-}
-
-footer {
-    color: #1a4c0b;
-}
-
-.privacy {
-    text-align: center;
-    color:#1a4c0b;
-    margin-bottom: 0.5rem;
-}
-
-.privacy:hover {
-    color:#6c757d;
-}
