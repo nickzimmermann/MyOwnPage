@@ -82,7 +82,26 @@ p {
     width: 350px;
 }
 
-i#deviconStyle {
+.footerIconList {
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.footerIcon {
+    color: #0d6efd;
+    padding: 0.5rem;
+}
+
+footer {
     color: #6c757d;
-    font-size: 30px;
+}
+
+.privacy {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.privacy:hover {
+    color: #a1a3a5;
 }
