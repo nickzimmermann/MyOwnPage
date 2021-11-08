@@ -1,13 +1,21 @@
-h2.font-color {
-    color: #6c757d;
-}
-
 .navbar-ul {
     margin-right: 50px;
 }
 
 .navbar-li {
     margin-right: 20px;
+}
+
+.language {
+    color: rgba(255,255,255,.55);
+}
+
+.language:hover {
+    color:rgba(255,255,255,.75);
+}
+
+h2.font-color {
+    color: #6c757d;
 }
 
 .button-hero {
