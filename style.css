@@ -1,13 +1,21 @@
-h2.font-color {
-    color: #6c757d;
-}
-
 .navbar-ul {
     margin-right: 50px;
 }
 
 .navbar-li {
     margin-right: 20px;
+}
+
+.language {
+    color: rgba(255,255,255,.55);
+}
+
+.language:hover {
+    color:rgba(255,255,255,.75);
+}
+
+h2.font-color {
+    color: #6c757d;
 }
 
 .button-hero {
@@ -74,7 +82,26 @@ p {
     width: 350px;
 }
 
-i#deviconStyle {
+.footerIconList {
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+.footerIcon {
+    color: #0d6efd;
+    padding: 0.5rem;
+}
+
+footer {
     color: #6c757d;
-    font-size: 30px;
+}
+
+.privacy {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.privacy:hover {
+    color: #a1a3a5;
 }
